@@ -144,3 +144,14 @@ def questions():
     else:
       print("Your score was",score,"out of 10. Try again")
       score = 0
+
+      
+def instructions():
+  print("you will have 10 questions to answer from 4 choices. Type one choice you think is correct. Include the capitals aswell in your final answer.")
+
+#Greetings
+print("Multi-choice General Knowledge Quiz")
+name = input("What is your name? ")
+print("Welcome",(name),)
+instructions()
+print("You may begin")

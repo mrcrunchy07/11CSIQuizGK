@@ -27,16 +27,16 @@ choices = [ #The multi choices
 ]
 
 def shift():
-  print(" ")
+  print(" ") #For a new line so it looks neat in the output
 
 
 def questions():
   score = 0 #sets score to 0
   while score <10:
     shift()
-    print(qq[0])
-    q = input(choices[0])
-    if q == answer[0]:
+    print(qq[0]) #prints the question that is in the array
+    q = input(choices[0]) #prints the choices that is in the array
+    if q == answer[0]: #if it is equal the the answer in array
       score += 1
       print("Correct")
     else:

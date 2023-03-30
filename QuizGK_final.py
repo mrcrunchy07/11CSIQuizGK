@@ -152,15 +152,16 @@ def questions():
 
 
 def instructions():
-  print("you will have 10 questions to answer from 4 choices. Type one choice you think is correct. Include the capitals aswell in your final answer.")
+  print("You will have 10 questions to answer from 4 choices. Type one choice you think is correct. Include the capitals aswell in your final answer.")
 
 #Greetings
 print("Multi-choice General Knowledge Quiz")
+age = int(input("What is your age? "))
 name = input("What is your name? ")
 print("Welcome",(name),)
-time.sleep(1)
+time.sleep(1) 
 instructions()
-time.sleep(5)
+time.sleep(5) #Added time.sleep so they have enough time to read the instructions
 print("You may begin")
 time.sleep(2)
 

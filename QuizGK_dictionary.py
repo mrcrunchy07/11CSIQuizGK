@@ -33,8 +33,5 @@ def instructions():
 print("Multi-choice General Knowledge Quiz")
 name = input("What is your name? ")
 print("Welcome",(name),)
-time.sleep(1)
 instructions()
-time.sleep(5)
 print("You may begin")
-time.sleep(2)
